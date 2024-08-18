@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+nav ul li:hover {
+  /* text-decoration: underline; */
+  cursor: pointer;
+  border-bottom: 1px solid red;
+}
+.logo img {
+  margin-left: 10rem;
+}
+.login {
+  padding: 0 26px;
+  height: 42px;
+  font-size: 20px;
+  font-weight: 800;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 20px;
+}
+.login:hover {
+  background-color: #ac0000;
+  color: white;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+/* Hero Section style */
+.hero {
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+  height: calc(100vh - 72px);
+  /* height: 700px; */
+}
+.hero .hero-img {
+  margin-top: 90px;
+}
+.hero h1 {
+  font-weight: 800;
+  line-height: 90px;
+  color: rgb(173, 170, 170);
+  margin-bottom: 20px;
+  /* gap: 36px; */
+  font-size: 100px;
+}
+p {
+  font-weight: 500;
+  margin-left: 15px;
+  color: rgb(56, 55, 55);
+}
+.hero-btn button {
+  padding: 0 26px;
+  height: 42px;
+  margin: 5px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: whitesmoke;
+  background-color: #f32b2b;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 20px;
+}
+.hero-btn button:hover {
+  background-color: #ac0000;
+  color: white;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.hero-btn:hover {
+  background-color: white;
+  color: black;
+}
+.brand-icon img {
+  margin: 5px;
+}
